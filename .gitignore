@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+**/.env
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+**/dist/
+**/build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+**/__pycache__/
+
+# ML artifacts
+trained_models/*.pkl
+trained_models/*.joblib
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+coverage/
